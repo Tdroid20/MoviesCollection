@@ -38,7 +38,7 @@ function MoviesPage() {
     const [gender, setGender] = useState([]);
 
     const [StatusErro, setStatus] = useState('ok');
-    const [NameUserErro, setNameUserErro] = useState(undefined);
+    const [NameUserErro] = useState(undefined);
     const [field, setField] = useState('');
 
     const [Loading, setLoading] = useState(true);
